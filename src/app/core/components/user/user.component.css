@@ -1,0 +1,51 @@
+/* src/app/pages/user/user.component.css */
+
+/* Conteneur principal pour la carte de profil */
+.user-profile {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e0e0e0;
+    transition: all 0.3s ease;
+  }
+  
+  /* Changement d'ombre au survol */
+  .user-profile:hover {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Titre du profil */
+  .user-profile h2 {
+    font-size: 24px;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  /* Style pour chaque ligne de texte */
+  .user-profile p {
+    font-size: 18px;
+    color: #34495e;
+    margin: 10px 0;
+  }
+  
+  /* Mise en forme du texte fort (Nom et Âge) */
+  .user-profile strong {
+    font-weight: 600;
+    color: #2980b9;
+  }
+  
+  /* Option de style supplémentaire pour le nom avec transformation */
+  .user-profile .username {
+    text-transform: uppercase;
+    color: #16a085;
+  }
+  
+  /* Ajout d'un effet pour le texte (par exemple, une couleur personnalisée pour l'âge) */
+  .user-profile .age {
+    color: #e74c3c;
+  }
+  

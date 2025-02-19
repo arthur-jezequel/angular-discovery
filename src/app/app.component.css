@@ -1,0 +1,29 @@
+/* Container pour la barre de navigation */
+nav {
+    background-color: #333;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Lien dans la barre de navigation */
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  /* Hover effect sur les liens */
+  nav a:hover {
+    color: #f1c40f; /* Changer la couleur au survol */
+  }
+  
+  /* Ajouter un "home" spécifique si besoin */
+  nav a:first-child {
+    font-weight: bold;
+  }
+  

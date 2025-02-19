@@ -1,0 +1,11 @@
+{
+  "extends": "../tsconfig.json",
+  "include": [
+    "**/*.ts",
+  ],
+  "exclude": [], /* Mandatory since ../tsconfig.json removes cypress */
+  "compilerOptions": {
+    "sourceMap": false,
+    "types": ["cypress"]
+  }
+}

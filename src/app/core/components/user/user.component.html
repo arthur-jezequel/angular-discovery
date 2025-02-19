@@ -1,0 +1,5 @@
+<div class="user-profile">
+    <h2>Profil de l'utilisateur</h2>
+    <p id="name"><strong>Nom : </strong>{{ (user$ | async)?.username | uppercase | star }}</p>
+    <p id="age"><strong>Âge : </strong>{{ (user$ | async)?.age }}</p>
+  </div>
